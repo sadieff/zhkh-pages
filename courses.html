@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="js/datepicker/css/datepicker.min.css">
+    <link rel="stylesheet" href="js/slider/nouislider.min.css">
+    <link rel="stylesheet" href="js/carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="js/fb/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/pagenation.css">
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/datepicker/js/datepicker.js"></script>
+    <script src="js/slider/nouislider.min.js"></script>
+    <script src="js/carousel/owl.carousel.min.js"></script>
+    <script src="js/fb/jquery.fancybox.min.js"></script>
+    <script src="js/svgxuse.min.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-row">
+            <div class="header-box">
+                <a href="/" class="header-logo">
+                    <svg><use xlink:href="images/sprite.svg#logo"></use></svg>
+                </a>
+                <div class="header-nav-container">
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="#">Документы</a></li>
+                            <li><a href="#">Материалы</a></li>
+                            <li><a href="#">Обучение</a></li>
+                            <li><a href="#">Сервисы</a></li>
+                            <li><a href="#">Приложения</a></li>
+                            <li><a href="#">Калькуляторы</a></li>
+                            <li><a href="#">Объекты</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header-role-mobile">
+                        <div class="header-role js-role">
+                            <svg><use xlink:href="images/sprite.svg#map"></use></svg>
+                            <span>Региональный оператор</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header-buttons">
+                <div class="header-role js-role">
+                    <svg><use xlink:href="images/sprite.svg#map"></use></svg>
+                    <span>Региональный оператор</span>
+                </div>
+                <button type="button" class="header-menu_open">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header> <!-- header -->
+
+    <div class="breadcrumb">
+        <div class="container">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li>Обучение</li>
+            </ul>
+        </div>
+    </div> <!-- breadcrumb -->
+
+    <div class="catalog">
+        <div class="container">
+            <h1 class="catalog-title">
+                Обучение
+            </h1>
+
+            <div class="catalog-wrapper">
+
+                <div class="catalog-enum">
+
+                    <div class="catalog-menu">
+                        <div class="catalog-menu-enum">
+                            <ul>
+                                <li class="active"><a href="#">Курсы</a></li>
+                                <li><a href="#">Очное обучение</a></li>
+                                <li><a href="#">Вебинары</a></li>
+                                <li><a href="#">Видео</a></li>
+                                <li><a href="#">Статьи</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="catalog-sort">
+                            Сортировать по:
+                            <div class="catalog-sort-buttons">
+                                <span class="active" data-sort="sort">Популярности</span>
+                                <span data-sort="time">Длительности</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-8.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-9.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-10.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-8.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-9.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-10.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-8.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-9.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-10.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-8.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-9.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-10.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-8.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-9.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <a href="#" class="traning-item">
+                                <div class="traning-section">
+                                    Фундаменты, полы и перекрытия
+                                </div>
+                                <picture>
+                                    <img src="images/img-10.jpg" alt="">
+                                </picture>
+                                <div class="traning-title">
+                                    Монтаж и контроль качества систем плоских кровель из полимерных мембран
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="pagenation">
+                                <div class="pagenation-more">
+                                    <a href="#" class="js-show-more">показать ещё</a>
+                                </div>
+                                <ul>
+                                    <li class="pagenation-first"><a href="#">1</a></li>
+                                    <li><a href="#">56</a></li>
+                                    <li class="current"><a href="#">57</a></li>
+                                    <li><a href="#">58</a></li>
+                                    <li><a href="#">59</a></li>
+                                    <li><a href="#">60</a></li>
+                                    <li class="pagenation-last"><a href="#">356</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form class="catalog-filter">
+                
+                    <button type="button" class="catalog-filter-open js-open-filter">
+                        Открыть фильтр
+                    </button>
+                
+                    <div class="catalog-filter-wrapper">
+                        <div class="catalog-filter-box">
+                            <div class="catalog-filter-title active">
+                                Тип конструкции
+                            </div>
+                            <div class="catalog-filter-items">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Кровля</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Чердак</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Фасад</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Фундамент</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Трубопровод</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Воздуховод</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Электрофильтр</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="catalog-filter-box">
+                            <div class="catalog-filter-title active">
+                                Длительность видео, (мин)
+                            </div>
+                            <div class="catalog-filter-items">
+                
+                                <div class="catalog-filter-slider slider" id="timeslider" data-slide="true"></div>
+                
+                                <div class="date-input input">
+                                    <div class="input-before">
+                                        От
+                                    </div>
+                                    <input type="text" name="start" value="" placeholder="5" id="timestart">
+                                    <div class="input-after">
+                                        мин
+                                    </div>
+                                </div>
+                                <div class="date-input input">
+                                    <div class="input-before">
+                                        До
+                                    </div>
+                                    <input type="text" name="start" value="" placeholder="10" id="timeend">
+                                    <div class="input-after">
+                                        мин
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="catalog-filter-box">
+                            <div class="catalog-filter-title active">
+                                Продукты для
+                            </div>
+                            <div class="catalog-filter-items">
+                                <div class="price-input input">
+                                    <div class="price-input-before">
+                                        От
+                                    </div>
+                                    <input type="text" name="start" value="" placeholder="11 000">
+                                    <div class="price-input-after">
+                                        ₽
+                                    </div>
+                                </div>
+                                <div class="price-input input">
+                                    <div class="price-input-before">
+                                        До
+                                    </div>
+                                    <input type="text" name="end" value="" placeholder="11 000">
+                                    <div class="price-input-after">
+                                        ₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="catalog-filter-box">
+                            <div class="catalog-filter-title active">
+                                Начало обучения
+                            </div>
+                            <div class="catalog-filter-items">
+                                <div class="date-input input">
+                                    <div class="input-before">
+                                        С
+                                    </div>
+                                    <input type="text" name="start" class="js-start" value="" placeholder="21.01.2019">
+                                    <svg class="input-icon" width="24"><use xlink:href="images/sprite.svg#calendar"></use></svg>
+                                </div>
+                                <div class="date-input input">
+                                    <div class="input-before">
+                                        По
+                                    </div>
+                                    <input type="text" name="end" class="js-end" value="" placeholder="21.01.2019">
+                                    <svg class="input-icon" width="24"><use xlink:href="images/sprite.svg#calendar"></use></svg>
+                                </div>
+                                <div class="date-ready-enum">
+                                    <button class="date-ready" type="button" data-start="05.05.2021" data-end="05.05.2021">Сегодня</button>
+                                    <button class="date-ready" type="button" data-start="05.05.2021" data-end="10.05.2021">На этой неделе</button>
+                                    <button class="date-ready" type="button" data-start="05.05.2021" data-end="31.05.2021">В этом месяце</button>
+                                    <button class="date-ready" type="button" data-start="05.05.2021" data-end="31.07.2021">В этом квартале</button>
+                                </div>
+                            </div>
+                        </div>
+                
+                
+                
+                        <div class="catalog-filter-box">
+                            <div class="catalog-filter-title active">
+                                Учебный центр
+                            </div>
+                            <div class="catalog-filter-items">
+                
+                                <div class="search-input input">
+                                    <input type="text" name="search" value="" placeholder="Начните вводить">
+                                    <svg class="input-icon" width="24"><use xlink:href="images/sprite.svg#search"></use></svg>
+                                </div>
+                
+                                <div class="catalog-filter-swiper">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Москва</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Санкт-Петербург</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Астана (Казахстан)</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Белгород</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Краснодар</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Пятигорск</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Екатеринбург</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="name1">
+                                            <span>Ростов-на-Дону</span>
+                                        </label>
+                                    </div>
+                                </div>
+                
+                                <button type="button" class="catalog-filter-more js-filter-more">Показать ещё</button>
+                
+                            </div>
+                        </div>
+                
+                
+                        <div class="catalog-filter-box">
+                            <div class="catalog-filter-title active">
+                                Тип конструкции
+                            </div>
+                            <div class="catalog-filter-items">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Кровля</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Чердак</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Фасад</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Фундамент</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Трубопровод</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Воздуховод</span>
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="name1">
+                                        <span>Электрофильтр</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="catalog-filter-buttons">
+                            <button type="button" class="catalog-filter-clear js-filter-clear">
+                                Очистить фильтр
+                                <svg><use xlink:href="images/sprite.svg#clear"></use></svg>
+                            </button>
+                        </div>
+                
+                    </div>
+                
+                </form>
+
+            </div>
+        </div>
+    </div> <!-- catalog -->
+
+
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="page-footer-row">
+            <div class="page-footer-row">
+                <div class="page-footer-about">
+                    <svg class="page-footer-logo"><use xlink:href="images/sprite.svg#logo-small"></use></svg>
+                    О компании технониколь
+                    <svg class="page-footer-arrow"><use xlink:href="images/sprite.svg#red-arrow"></use></svg>
+                </div>
+                <a href="#" class="page-footer-link">
+                    Политика конфиденциальности
+                </a>
+            </div>
+            <a href="#" class="page-footer-uxart">
+                Интерфейсы – <svg><use xlink:href="images/sprite.svg#uxart"></use></svg>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<div class="loading"></div>
+
+<div class="modal modal-role js-modal-role">
+    <div class="modal-title">
+        Ваша роль на сайте
+    </div>
+    <div class="modal-dsc">
+        Сайт будет подстраиваться в зависимости от вашей роли. Измениь выбор можно в любой момент. Выбор роли находится в верхней части страницы.
+    </div>
+    <div class="modal-role-enum">
+        <button class="modal-role-item" type="button" data-text="Региональный оператор">
+            <svg><use xlink:href="images/roles.svg#icon1"></use></svg>
+            Региональный оператор услуг ЖКХ
+        </button>
+        <button class="modal-role-item" type="button" data-text="Проектная организация">
+            <svg><use xlink:href="images/roles.svg#icon2"></use></svg>
+            Проектная организация
+        </button>
+        <button class="modal-role-item" type="button" data-text="Подрядная организация">
+            <svg><use xlink:href="images/roles.svg#icon3"></use></svg>
+            Подрядная организация
+        </button>
+        <button class="modal-role-item" type="button" data-text="Жильцы">
+            <svg><use xlink:href="images/roles.svg#icon4"></use></svg>
+            Жильцы
+        </button>
+        <button class="modal-role-item" type="button" data-text="Управляющая компания">
+            <svg><use xlink:href="images/roles.svg#icon5"></use></svg>
+            Управляющая компания
+        </button>
+        <button class="modal-role-item" type="button" data-text="Другое">
+            <svg><use xlink:href="images/roles.svg#icon6"></use></svg>
+            Другое
+        </button>
+    </div>
+</div>
+
+</body>
+</html>
